@@ -1,26 +1,21 @@
-# Versions
-
-- [`1.10.1-0` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.10.1-0/Dockerfile)
-- [`1.9.14-0` (_Dockerfile_)](https://github.com/mageinferno/docker-magento2-nginx/tree/1.9.14-0/Dockerfile)
 
 # Description
 
-This image is built from [`nginx`](https://hub.docker.com/_/nginx/) and contains the default webserver configuration for Magento 2.
+Esta es una imagen copia de (https://github.com/mageinferno/docker-magento2-nginx) para mantener una versión en español.
+# ¿Que hay dentro de esta imagen?
 
-# What's in this image?
-
-This image installs the following:
+Esta imagen instala lo siguiente:
 
 - `nginx`
 
 # Variables
 
-The following environment variables are used for Nginx configuration:
+Las siguientes variables de entorno son usadas por las configuraciones de Nginx:
 
-- `PHP_HOST`: (default: `phpfpm`) The hostname of the PHP container.
-- `PHP_PORT`: (default: `9000`) The port of the PHP container.
-- `APP_MAGE_MODE`: (default: `default`) Set the appropriate MAGE_MODE.
+- `PHP_HOST`: (default: `phpfpm`) Es el hostname del contenedor de PHPof the PHP.
+- `PHP_PORT`: (default: `9000`) El puerto del contenedor de PHP.
+- `APP_MAGE_MODE`: (default: `default`) Asigna el MAGE_MODE apropiado.
 
 # Docker Compose
 
-Please see [https://github.com/mageinferno/magento2-docker-compose](https://github.com/mageinferno/magento2-docker-compose) for more detailed instructions and an example development environment using Docker Compose.
+Nota: basado en el repositorio https://github.com/mageinferno/docker-magento2-nginx
